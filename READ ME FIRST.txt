@@ -1,0 +1,47 @@
+GILL STUDY BIBLE: KJV, BSB and MSB in one website
+==================================================
+
+ON A COMPUTER (no internet needed)
+----------------------------------
+Open the file "index.html" in this folder. Keep the whole folder together.
+
+- The box at the top left changes translation and keeps your place.
+- "Compare translations", beside each chapter heading, shows two or three
+  translations verse by verse. Tick the ones you want.
+- Verse numbers open Gill's comment.
+
+
+ON AN IPHONE, OR TO SHARE WITH OTHERS
+-------------------------------------
+A phone cannot open this folder directly; the site has to be put online
+("hosted"). It is about 6,300 files, which is too many for the simple
+drag-and-drop services, so use one of these two free routes.
+
+Route A: GitHub Pages (no typing of commands)
+  1. Create a free account at github.com and install "GitHub Desktop".
+  2. In GitHub Desktop: File > New Repository. Name it, for example,
+     "study-bible". Note the folder it creates on your computer.
+  3. Copy everything inside THIS folder into that new folder.
+  4. Back in GitHub Desktop: type a short summary (for example "first
+     upload"), press "Commit to main", then "Publish repository".
+     Untick "Keep this code private" (free Pages sites must be public).
+  5. On github.com open the repository: Settings > Pages. Under "Branch"
+     choose "main" and press Save.
+  6. After a few minutes the same page shows your address, in the form
+     https://YOURNAME.github.io/study-bible/
+
+Route B: Cloudflare Pages (one command; needs Node.js installed)
+  1. Create a free account at cloudflare.com.
+  2. Open a terminal in the folder that CONTAINS this folder and run:
+       npx wrangler pages deploy gill-study-bible
+     Follow the prompts; it prints your address when it finishes.
+
+Then, on the iPhone:
+  1. Open your address in Safari.
+  2. Share button > "Add to Home Screen". It then opens like an app.
+  3. For reading without a connection, scroll to "Offline reading" at the
+     foot of the home page and press "Save the Bible text" (and, if you
+     wish, "Save Gill's commentary", which is the larger part). Leave the
+     page open until it says it is done.
+
+Every page you open is also kept automatically for offline use.
